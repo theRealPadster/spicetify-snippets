@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Spicetify-Sidebar-Controls",
+    "description": "Spicetify snippet that moves the controls to the sidebar.",
+    "preview": "https://raw.githubusercontent.com/LucyUwI/Spicetify-Sidebar-Controls/main/preview.png",
+    "readme": "https://raw.githubusercontent.com/LucyUwI/Spicetify-Sidebar-Controls/main/README.md",
+    "snippetcss": ".Root__top-container{grid-template-areas:\"nav-bar main-view\" \"nav-bar main-view\" \"now-playing-bar main-view\"}.Root__top-container--right-sidebar-visible{grid-template-areas:\"nav-bar main-view right-sidebar\" \"nav-bar main-view right-sidebar\" \"now-playing-bar main-view right-sidebar\"}.Root__now-playing-bar,.main-nowPlayingBar-container,.main-nowPlayingBar-nowPlayingBar{width:calc(var(--nav-bar-width) + 9px);min-width:0;height:100%;display:flex;flex-direction:column;border-top:none;background-color:#050505}.main-nowPlayingBar-center{width:100%}.main-nowPlayingBar-left{margin-top:1em}.main-nowPlayingBar-right{margin-bottom:10px;align-items:center;justify-content:center}.main-coverSlotExpanded-container,.volume-bar:hover~.control-button,button.main-coverSlotCollapsed-expandButton{display:none}.main-nowPlayingBar-left *{display:flex;flex-direction:column;transform:none!important;width:100%}.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer,.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer *{width:180px!important;height:180px!important;transform:none!important}.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer *>.icon{position:initial!important}.main-trackInfo-container>* *{width:100%;text-align:center;transform:none!important;padding:0;margin:0}.main-connectPicker-button>div{transform:translateY(-19px)}.main-nowPlayingWidget-nowPlaying{width:100%;display:grid;grid-template:\"Art Art\" \"Info Like\"}.main-nowPlayingWidget-nowPlaying>*{display:grid}.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer{grid-area:Art}.main-trackInfo-container{grid-area:Info;justify-self:self-end;margin:0;transform:translate(-6px,0)!important}.main-trackInfo-artists{display:flex;flex-direction:row}.main-trackInfo-artists>*{margin-left:3px;text-align:left}.main-trackInfo-artists *{display:inline}.main-trackInfo-name *{margin-left:1px;text-align:left}button.main-addButton-button.control-button.control-button-heart.main-addButton-active{grid-area:Like;width:fit-content;justify-self:end}",
+    "include": "https://raw.githubusercontent.com/LucyUwI/Spicetify-Sidebar-Controls/main/VolumeBeforeHover.js",
+    "authors": [
+        { "name": "LucyUwI", "url": "https://github.com/LucyUwI" }
+    ],
+    "tags": ["Controls","Sidebar"]
+  }
+]
